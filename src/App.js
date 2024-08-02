@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import JokeGEnerator from './components/JokeGEnerator'
 
 export default function App() {
-  const [count,setCount] = useState(0)
+  // const [count,setCount] = useState(0)
   const [number,setNumber] = useState(100)
   useEffect(()=>{
       console.log("adfar")
